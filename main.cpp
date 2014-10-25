@@ -11,6 +11,7 @@ using namespace std;
 int main(int argc, char** argv) {
 	cout << "Szymon Blaszczynski" << endl;
 	cout << setprecision(8) << M_PI << endl;
+	cout << "\"Ala\"" << endl;
 	getch();
 	// system("PAUSE"); // work on linux? no.
 	return 0;
