@@ -1,6 +1,6 @@
 #include <iostream>
-#include <conio.h>
-#include <cstdlib>
+// #include <conio.h> // getch
+// #include <cstdlib> # system
 #include <cmath>
 #include <iomanip>
 
@@ -12,7 +12,13 @@ int main(int argc, char** argv) {
 	cout << "Szymon Blaszczynski" << endl;
 	cout << setprecision(8) << M_PI << endl;
 	cout << "\"Ala\"" << endl;
-	getch();
-	// system("PAUSE"); // work on linux? no.
+	cout << "'" << endl;
+	int number_0 = 0;
+	int number_1 = 0;
+	cout << "Podaj dwie liczby: ";
+	cin >> number_0 >> number_1;
+	cout << "Liczba pierwsza: " << number_0 << ", liczba druga: " << number_1 \
+		<< "." << endl;
+	// system("PAUSE"); // works on linux? no.
 	return 0;
 }
