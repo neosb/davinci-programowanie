@@ -1,5 +1,8 @@
 #include <iostream>
 #include <conio.h>
+#include <cstdlib>
+#include <cmath>
+#include <iomanip>
 
 using namespace std;
 
@@ -7,6 +10,8 @@ using namespace std;
 
 int main(int argc, char** argv) {
 	cout << "Szymon Blaszczynski" << endl;
+	cout << setprecision(8) << M_PI << endl;
 	getch();
+	// system("PAUSE"); // work on linux? no.
 	return 0;
 }
