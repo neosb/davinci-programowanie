@@ -1,8 +1,8 @@
 #include <iostream>
 // #include <conio.h> // getch
 // #include <cstdlib> # system
-#include <cmath>
-#include <iomanip>
+#include <cmath> // M_PI
+#include <iomanip> // setprecision
 
 using namespace std;
 
